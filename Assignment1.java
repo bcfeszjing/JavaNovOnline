@@ -17,7 +17,7 @@ public class Assignment1 {
     }
 
     public void displayDetails(){
-        double value = carPrice * carYear;
+        double value = (carPrice * carYear) / 1000;
         System.out.println(carName + " value is " + value);
     }
 
