@@ -1,0 +1,11 @@
+() Paranteses
+{} Curly bracket
+[] bracket
+"" Double quotation
+'' single quotation
+/ slash
+# hash
+$ dollar sign 
+. dot
+: colon
+; semi colon
