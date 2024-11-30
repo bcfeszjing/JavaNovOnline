@@ -9,3 +9,11 @@ $ dollar sign
 . dot
 : colon
 ; semi colon
+
+**Cloning github
+open terminal
+git clone [ssh link]
+
+**Running the file
+javac .\xxx.java
+java xxx
