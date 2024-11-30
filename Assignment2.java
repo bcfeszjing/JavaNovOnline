@@ -65,7 +65,6 @@ public class Assignment2 {
         System.out.println("Car 1 - Model: " + car1.getcModel() + ", Name: " + car1.getcName() + ", Price: " + car1.getcPrice());
         System.out.println("Car 2 - Model: " + car2.getcModel() + ", Name: " + car2.getcName() + ", Price: " + car2.getcPrice());
         System.out.println("Car 3 - Model: " + car3.getcModel() + ", Name: " + car3.getcName() + ", Price: " + car3.getcPrice());
-        System.out.printf("Average Price: %.2f\n", averagePrice);
-
+        System.out.printf("Average Price: " + averagePrice);
     }
 }
