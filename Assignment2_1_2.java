@@ -28,13 +28,10 @@ public class Assignment2_1_2 {
         double averagePrice = (car1.getPrice() + car2.getPrice() + car3.getPrice()) / 3;
         System.out.println("The average price of the cars is: " + averagePrice);
 
-        String result1 = (averagePrice>100000) ? "Expensive" : "Not Expensive";
-        String result2 = (averagePrice > 50000 && averagePrice < 99999) ? "Normal Price" : "Not Normal Price";
-        String result3 = (averagePrice < 49999) ? "Cheap" : "Not Cheap";
+        String result1 = (averagePrice>100000) ? "Expensive" : (averagePrice > 50000 && averagePrice < 99999) ?
+        "Normal Price" : (averagePrice < 49999)  ? "Cheap" : "Unknow Price";
 
         System.out.println("Ternary result: " + result1);
-        System.out.println("Ternary result: " + result2);
-        System.out.println("Ternary result: " + result3);
     }
 
     public Car getCarDetails(Scanner scanner) {

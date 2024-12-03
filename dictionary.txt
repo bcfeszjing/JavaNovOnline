@@ -3,12 +3,17 @@
 [] bracket
 "" Double quotation
 '' single quotation
-/ slash
+/ slash (exp divide)
+// double slash
 # hash
 $ dollar sign 
 . dot
 : colon
 ; semi colon
+@ at or atsigned
+, coma
+! exclamation
+
 
 **Cloning github
 open terminal
