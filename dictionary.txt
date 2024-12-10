@@ -22,3 +22,14 @@ git clone [ssh link]
 **Running the file
 javac .\xxx.java
 java xxx
+
+
+OCFA exam question will
+
+1. String not primitive
+2. String 1firstName <-- not true (no number infront)
+    String _firstName <-- not true (no _ infront)
+    String first_name <-- true
+3. int and double values > min & max
+4. double > decimal portions
+5. 
